@@ -1,0 +1,362 @@
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+ background-color: #eccd97;
+ font-family: gill sans;
+}
+.navbar {
+  background-color: #aa0000;
+  
+}
+
+.logo {
+  font-size: 30px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.logoimage {
+  width: 50px;
+  height: 50px;
+}
+.div {
+  display: flex;
+}
+.navbar-toggler-icon {
+  color: white;
+}
+.navbar-nav {
+  margin-left: px;
+
+  text-align: left;
+}
+.nav-item a {
+  color: white;
+  margin-left: 30px;
+}
+.nav-item a:hover {
+  color: #ffba00;
+  transition: 1s;
+}
+#dropdownMenuLink{
+  color:white;
+  margin-left: 10px;
+  }
+  #dropdownMenuLink:hover{
+    color:#ffba00;
+  }
+  .btn:focus{
+    border:none;
+    outline: none;
+    
+  }
+ 
+
+
+
+#signin-btn a {
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 30px;
+  margin-top: 10px;
+  color: white;
+}
+
+#signin-btn a:hover {
+  color: #ffba00;
+  transition: 1s;
+}
+.cart {
+  margin-left: 30px;
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+  color: white;
+  text-align: center;
+}
+.homeimage{
+  margin-top: 50px;
+}
+/* .dialog {
+  height: 500px;
+}
+.signin-form {
+  padding: 20px;
+  position: relative;
+}
+.btn-close {
+  position: absolute;
+  margin-left: 440px;
+  margin-top: 5px;
+}
+#sign {
+  font-size: 30px;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+.input {
+  width: 100%;
+  height: 40px;
+  margin-top: 30px;
+  background-color: rgba(249, 246, 246, 0.9);
+  border: none;
+}
+.input:focus {
+  outline: none;
+  border: 1px solid skyblue;
+}
+.sign-btn {
+  width: 100%;
+  height: 40px;
+  margin-top: 50px;
+  background-color: #d00304;
+  border: none;
+  font-size: 20px;
+}
+.forget-pwd {
+  position: absolute;
+  margin-top: 10px;
+}
+.already-have {
+  position: absolute;
+  margin-top: 10px;
+} */
+/* menu section */
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.diverse-fare {
+  text-align: center;
+  margin: 20px;
+  margin-top: 50px;
+  font-weight: bold;
+  font-family: gill sans;
+}
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px 50px;
+}
+.container .card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 330px;
+  height: 300px;
+  background: white;
+  margin-top: 37px;
+  border-radius: 20px;
+  transition: 0.5s;
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.15);
+}
+.container .card:hover {
+  height: 400px;
+}
+.container .card .card-img {
+  position: absolute;
+  width: 300px;
+  height: 230px;
+  margin-left: 15px;
+  margin-top: -30px;
+  background: #333;
+  border-radius: 12px;
+  transition: 1s;
+  overflow: hidden;
+}
+.container .card:hover .card-img {
+  top: -50px;
+  scale: 0.85;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1);
+}
+.container .card .card-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container .card .card-content {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  padding: 0 30px;
+  top: 250px;
+  height: 35px;
+  overflow: hidden;
+  transition: 1s;
+}
+.container .card:hover .card-content {
+  height: 250px;
+  top: 150px;
+}
+.card-content a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.card-content button {
+  width: 100px;
+  height: 40px;
+  background-color: #aa0000;
+  border: none;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.card-content button:hover {
+  box-shadow: 0px 2px 10px rgb(193, 189, 189);
+}
+.card-content h2 {
+  
+  font-weight: bold;
+  font-family: gill sans;
+  font-size: 27px;
+  
+}
+.card-content p {
+  font-weight: bold;
+}
+/* .scroll-body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.scroll{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+} */
+.howitworkimg {
+  margin-top: 70px;
+}
+
+.container2 {
+  display: flex;
+  margin-top: 70px;
+  flex-wrap: nowrap;
+}
+.container2 .card {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+
+.cover {
+  position: relative;
+  padding: 0px 30px;
+  margin-top: 100px;
+}
+.cover h1 {
+  margin-top: -50px;
+  text-align: center;
+  font-weight: bold;
+  font-family: gill sans;
+}
+
+.left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.scroll-images {
+  position: relative;
+  width: 100%;
+  padding: 40px 0px;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+  height: 300px;
+  background-color: white;
+  padding: 0px 15px;
+  margin: 1px 10px;
+  border: 1px solid #f1f1f1;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 0px 15px 2px rgb(0 0 0 / 10%);
+  box-shadow: 0px 0px 15px 2px rgb(0 0 0 / 10%);
+}
+.link {
+  position: absolute;
+  margin-right: 300px;
+  margin-top: -300px;
+}
+
+.child .link img,
+.child > svg {
+  position: absolute;
+  /* margin-top: -195px; */
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  /* border-radius: 50%; */
+  /* background: #03a9f4; */
+  transition: 0.3s;
+}
+.child img:hover {
+  box-shadow: 0px 2px 5px black;
+}
+.child h3 {
+  position: absolute;
+  margin-top: 350px;
+  font-size: 20px;
+  
+  font-family: gill sans;
+  font-weight: bold;
+}
+
+.scroll-images::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: #aaa;
+}
+
+.scroll-images::-webkit-scrollbar-thumb {
+  background-color: black;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 25px;
+}
+.footer {
+  background-color: #aa0000;
+  margin-top: 50px;
+}
+.footer-a {
+  color:white;
+}
+

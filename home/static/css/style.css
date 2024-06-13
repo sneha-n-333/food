@@ -1,0 +1,142 @@
+body {
+  background: #eee;
+  position: relative;
+  font-family: gill sans;
+}
+.navbar {
+  background-color: #aa0000;
+}
+
+.logo {
+  font-size: 30px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.logoimage {
+  width: 50px;
+  height: 50px;
+}
+.div {
+  display: flex;
+}
+.navbar-toggler-icon {
+  color: white;
+}
+.navbar-nav {
+  text-align: left;
+}
+.nav-item a {
+  color: white;
+  margin-left: 30px;
+}
+.nav-item a:hover {
+  color: #ffba00;
+  transition: 1s;
+}
+#dropdownMenuLink {
+  color: white;
+  margin-left: 10px;
+}
+.btn:focus {
+  border: none;
+  outline: none;
+}
+
+#signin-btn a {
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 30px;
+  margin-top: 10px;
+  color: white;
+}
+
+#signin-btn a:hover {
+  color: #ffba00;
+  transition: 1s;
+}
+.cart {
+  margin-left: 30px;
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+  color: white;
+  text-align: center;
+}
+.product{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.title{
+  margin-top: 100px;
+  font-size: 30px;
+   margin-bottom: 3rem;
+   text-transform: uppercase;
+   text-align: center;
+   font-family: gill sans;
+}
+
+ .card{
+  margin-top: 200px;
+  width: 340px;
+   height: 330px;
+   padding: 5px;
+   margin: 15px;
+   border-radius: 10px;
+   /* margin-bottom: 35px; */
+   background: #fff;
+   box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+   cursor: pointer;
+   
+  }
+ .card .pic img{
+  height: 350px;
+   width: 320px;
+   margin: 5px;
+   object-fit: cover;
+   transition: 0.5s;
+   background-size: cover;
+     overflow: hidden;  
+ }
+ 
+ .pic{
+  overflow: hidden;
+ }
+ .image:hover{
+  
+  transform: scale(1.1);
+ }
+ 
+ .price p{
+   position: absolute;
+    margin-left: 250px;
+    margin-top: -60px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: gill sans;
+
+ }
+ .price{
+  margin-top: 5px;
+ }
+ h5{
+  margin-top: 10px;
+ }
+.price .im{
+  width: 20px;
+    height: 20px;
+    margin-left: 230px; 
+    margin-top: -62px; 
+}
+.footer {
+  position: absolute;
+    
+ width: 98.7vw; 
+  background-color: #aa0000;
+   margin-top: 70px; 
+}
+.footer-a {
+  color: white;
+}

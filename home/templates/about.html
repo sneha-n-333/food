@@ -1,0 +1,49 @@
+{% extends "base.html" %} 
+ 
+ {% block content %}
+
+ <head>
+  {% load static %}
+  <link rel="stylesheet" href="{% static '/css/about.css' %}" />
+</head>
+ {% load static %}
+
+ <h1 id="about">About Us</h1>
+<div class="container"">
+  
+   
+  <img class="im" src="{% static "images/im1.jpg" %}" alt="">  
+  {% comment %} <img src="{% static "images/how.jpg" %}" class="img-fluid" alt="image"> {% endcomment %}
+ <p class="paragraph">FeastFleet, the epitome of culinary convenience, redefines the realm of food delivery with its unparalleled service. From gourmet delicacies to comfort classics, FeastFleet caters to every palate with an extensive array of delectable options curated from top-rated restaurants.
+     With a seamless ordering process facilitated through their user-friendly app, customers can indulge in a gastronomic journey from the comfort of their homes. What sets FeastFleet apart is its commitment to quality and freshness; every dish is meticulously prepared and promptly delivered, ensuring that each bite is a symphony of flavor. Whether it's a cozy night in or a lavish gathering, FeastFleet elevates every dining experience, making every meal a feast to remember.</p>
+<img src="{% static "images/how.jpg" %}" class="img-fluid" alt="image">
+<div class="div">
+<div class="card">
+  <img src="static/images/fooddelivery.png" class="card-img-top cardimage" alt="...">
+  <div class="card-body">
+    <p class="card-text">Food delivery services offer unparalleled convenience, bringing a world of culinary options directly to your doorstep with just a few taps on your smartphone.
+</p>
+  </div>
+</div>
+
+<div class="card">
+  <img src="static/images/onlinepayment.png" class="card-img-top cardimage" alt="...">
+  <div class="card-body">
+    <p class="card-text">Online payment streamlines transactions, offering a secure and convenient way to make purchases and handle financial transactions with just a few clicks.</p>
+  </div>
+</div>
+
+<div class="card">
+  <img src="static/images/cashondelivery.png" class="card-img-top cardimage" alt="...">
+  <div class="card-body">
+    <p class="card-text">Cash on delivery provides a convenient payment option, allowing customers to pay for their purchases only upon receipt, eliminating the need for upfront payment or online transactions.
+</p>
+  </div>
+</div>
+
+</div>
+
+</div>
+
+
+{% endblock content %}
