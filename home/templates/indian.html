@@ -1,0 +1,34 @@
+{% extends "base.html" %} {% block content %}
+
+<head>
+  {% load static %}
+  <link rel="stylesheet" href="{% static '/css/style.css' %}" />
+</head>
+<div class="container">
+<h3 class="title">{{category_name}}</h3>
+
+<div class="product">
+{% for item in products%}
+<div class="card">
+  <div class="pic">
+    <a href="{% url 'product_details' category_name item.name %}">
+  <img src="{{item.product_image.url}}" class="image" alt="...">
+  </a>
+  </div>
+ 
+  <h5>{{item.name}}</h5>
+         <div class="price">
+          <img class="im" src="{% static 'images/rupee.png'%}" alt="image">
+        <p>{{item.price}}</p></div>
+  
+</div>
+
+
+{% endfor%}
+
+
+</div>
+</div>
+
+
+{%endblock content%}
