@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {% extends "base.html" %} {% block content %}
 <head>
   {% load static %}
@@ -26,3 +27,33 @@
 </div>
 
 {% endblock content %}
+=======
+{% extends "base.html" %} {% block content %}
+<head>
+  {% load static %}
+  <link rel="stylesheet" href="{% static '/css/menu.css' %}" />
+</head>
+
+<h1 class="diverse-fare">DIVERSE FARE</h1>
+<div class="menu">
+  
+  <div class="container">
+    {% for item in category %}
+
+    <div class="card">
+      <div class="card-img">
+        <img src="{{item.image.url}}" alt="" />
+      </div>
+      <div class="card-content">
+        <h2>{{item.name}}</h2>
+        <p>{{item.description}}</p>
+        
+        <button><a href="{% url 'menu' item.name%}">Savor it</a></button>
+      </div>
+    </div>
+    {% endfor %}
+      </div>
+</div>
+
+{% endblock content %}
+>>>>>>> 7c21ed5aeb93418d1ab75479e42e840677e8decc

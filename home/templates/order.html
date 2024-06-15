@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {% extends "base.html" %} {% block content %}
 
 <head>
@@ -71,4 +72,79 @@
 </script>
 
 
+=======
+{% extends "base.html" %} {% block content %}
+
+<head>
+  {% load static %}
+  <link rel="stylesheet" href="{% static '/css/order.css' %}" />
+</head>
+
+
+  <div class="container">
+
+     <form class="form" onsubmit="return validateForm()">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="address">Address:</label><br>
+        <input type="text" id="address" name="address"><br>
+
+        <label for="city">City:</label><br>
+        <input type="text" id="city" name="city"><br>
+
+        <label for="phone">Phone No:</label><br>
+        <input type="number" id="phone" name="phone"><br>
+
+        <label for="postalCode">Postal Code:</label><br>
+        <input type="text" id="postalCode" name="postalCode"><br>
+
+        {% comment %} <input type="submit" value="Submit"> {% endcomment %}
+
+         <button style="margin-top:20px" value="submit">Place Order</button>
+    </form>
+
+
+  </div>
+
+
+    <script>
+
+      function validateForm() {
+            var name = document.getElementById("name").value;
+            var address = document.getElementById("address").value;
+            var city = document.getElementById("city").value;
+            var postalCode = document.getElementById("postalCode").value;
+
+            // Check if any field is empty
+            if (name === "" || address === "" || city === "" || phone === "" || postalCode === "") {
+                alert("All fields are required");
+                return false;
+            }
+
+            // Check postal code format
+            var canadianPostalCodePattern = /^[A-Za-z]\d[A-Za-z][ -]?\d[A-Za-z]\d$/;
+            var usZipCodePattern = /^\d{5}(-\d{4})?$/;
+            var indianPostalCodePattern = /^\d{6}$/;
+
+            if (!canadianPostalCodePattern.test(postalCode) && 
+                !usZipCodePattern.test(postalCode) &&
+                !indianPostalCodePattern.test(postalCode)) {
+                alert("Invalid postal code format");
+                return false;
+            }
+
+            if (confirm("Your order is placed.")) {
+                window.location.href ="{% url 'home' %}"; // Redirect to home page
+            }
+
+            return false;
+        }
+
+
+      
+</script>
+
+
+>>>>>>> 7c21ed5aeb93418d1ab75479e42e840677e8decc
 {% endblock %}

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   position: relative;
   margin: 0;
@@ -113,3 +114,120 @@ button:hover {
 .footer-a {
   color: white;
 }
+=======
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-color: #eee;
+  font-family: gill sans;
+}
+.navbar {
+  background-color: #aa0000;
+}
+
+.logo {
+  font-size: 30px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.logoimage {
+  width: 50px;
+  height: 50px;
+}
+.div {
+  display: flex;
+}
+.navbar-toggler-icon {
+  color: white;
+}
+.navbar-nav {
+  margin-left: px;
+
+  text-align: left;
+}
+.nav-item a {
+  color: white;
+  margin-left: 30px;
+}
+.nav-item a:hover {
+  color: #ffba00;
+  transition: 1s;
+}
+#dropdownMenuLink {
+  color: white;
+  margin-left: 10px;
+}
+#dropdownMenuLink:hover {
+  color: #ffba00;
+}
+.btn:focus {
+  border: none;
+  outline: none;
+}
+
+#signin-btn a {
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 30px;
+  margin-top: 10px;
+  color: white;
+}
+
+#signin-btn a:hover {
+  color: #ffba00;
+  transition: 1s;
+}
+.cart {
+  margin-left: 30px;
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+  color: white;
+  text-align: center;
+}
+.form {
+  margin-top: 100px;
+}
+label {
+  font-size: 20px;
+}
+input {
+  padding: 5px;
+  width: 50%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px gray;
+}
+input,
+textarea:focus {
+  outline: none;
+}
+textarea {
+  width: 50%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px gray;
+}
+button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+
+}
+button:hover {
+  box-shadow: 0 2px 5px gray;
+}
+
+.footer {
+  background-color: #aa0000;
+  margin-top: 50px;
+}
+.footer-a {
+  color: white;
+}
+>>>>>>> 7c21ed5aeb93418d1ab75479e42e840677e8decc
