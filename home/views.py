@@ -7,6 +7,8 @@ from django.contrib.auth import authenticate,login,logout
 import json
 
 # Create your views here.
+def index(request):
+   return render(request,"index.html")
 def home(request):
     category=Category.objects.filter(status=0)
     return render(request,"index.html",{"category":category})
