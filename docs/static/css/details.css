@@ -1,0 +1,135 @@
+body {
+  background: #eee;
+  position: relative;
+  font-family: gill sans;
+}
+.navbar {
+  background-color: #aa0000;
+}
+
+.logo {
+  font-size: 30px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.logoimage {
+  width: 50px;
+  height: 50px;
+}
+.div {
+  display: flex;
+}
+.navbar-toggler-icon {
+  color: white;
+}
+.navbar-nav {
+  text-align: left;
+}
+.nav-item a {
+  color: white;
+  margin-left: 30px;
+}
+.nav-item a:hover {
+  color: #ffba00;
+  transition: 1s;
+}
+#dropdownMenuLink {
+  color: white;
+  margin-left: 10px;
+}
+.btn:focus {
+  border: none;
+  outline: none;
+}
+
+#signin-btn a {
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 30px;
+  margin-top: 10px;
+  color: white;
+}
+
+#signin-btn a:hover {
+  color: #ffba00;
+  transition: 1s;
+}
+.cart {
+  margin-left: 30px;
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+  color: white;
+  text-align: center;
+}
+.image{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 0 2px 10px gray;
+}
+.product{
+    display: flex;
+    margin-left: 100px;
+    flex-wrap: wrap;
+    margin-top: 150px;
+
+    
+}
+
+/* .pic{
+    margin-top: 150px;
+}*/
+.card-body{
+    margin-left: 50px;
+    width: 100px;
+}
+
+.price p{
+    
+   position: absolute;
+   display: inline-block;
+
+     margin-left: 20px; 
+     margin-top: -25px; 
+    font-size: 20px;
+    font-weight: bold;
+    font-family: gill sans;
+
+ }
+ h6{
+    position: absolute;
+    margin-left: 20px; 
+     margin-top: -25px; 
+    font-size: 20px;
+    font-weight: bold;
+    font-family: gill sans;
+
+ }
+ .btn{
+    margin-top: 20px;
+ }
+ .price{
+  margin-top: 5px;
+ }
+ h5{
+  margin-top: 10px;
+ }
+.price .im{
+  width: 20px;
+    height: 20px;
+    /* margin-left: 230px;  */
+    /* margin-top: -62px;  */
+}
+
+
+.footer {
+  position: absolute;
+    
+  width:100%;  
+  background-color: #aa0000;
+   margin-top: 70px; 
+}
+.footer-a {
+  color: white;
+}
